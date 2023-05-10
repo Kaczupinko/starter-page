@@ -1,0 +1,93 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+/// 
+
+#home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.song-preview-card {
+  margin: 30px 16px;
+  background-color: #9296C4;
+  width: 100%;
+  height: 100%;
+  max-width: 413px;
+  max-height: 607px;
+  border-radius: 24px;
+  padding: 16px;
+  color: white;
+
+  .song-preview-card__image-container {
+    position: relative;
+    border-radius: 16px;
+    width: 100%;
+    height: 381px;
+    overflow: hidden;
+  }
+
+  .song-preview-card__content {
+    margin-top: 7px;
+    padding: 16px;
+  }
+
+  .song-preview-card__title {
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 700;
+  }
+
+  .song-preview-card__artist-and-time {
+    margin-top: 11px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .song-preview-card__album-cover-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .song-preview-card__time-text{
+    width: 36px;
+    height: 25px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .vector-591 {
+    position: absolute;
+    width: 349px;
+    height: 0px;
+    left: 32px;
+    top: 541px;
+    
+    opacity: 0.2;
+    border: 1.5px solid #FFFFFF;
+  }
+  .song-preview-card__time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 8px;
+     
+  }
+  .song-preview-card__album-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+    gap: 8px;
+  }
+}
